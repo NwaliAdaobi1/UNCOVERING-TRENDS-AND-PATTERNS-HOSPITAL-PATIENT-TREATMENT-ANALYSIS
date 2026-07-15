@@ -55,8 +55,6 @@ This analysis examines outcomes across 200 patients treated at the hospital, wit
 
 ![](DASHBOARD_1.png)
 
-![](DASHBOARD_2.png)
-
 The hospital achieved a moderate overall recovery outcome of 70%, with patients averaging a 16-day length of stay. Recovery performance showed meaningful variation across treatment types, age groups, and departments, pointing to specific opportunities for targeted improvement.
 
 **Data Quality Flag**: 31% of patient records (62 of 200) have unspecified gender. This is a significant gap that should be addressed, as it limits the reliability of any demographic-based analysis and recommendations.
@@ -66,11 +64,15 @@ The hospital achieved a moderate overall recovery outcome of 70%, with patients 
 **Age-Related Outcomes**: Patients aged 65+ recorded the highest recovery score (~78), while those aged 35–49 recorded the lowest. This gap may reflect more intensive monitoring and follow-up care typically extended to older patients, and suggests an opportunity to extend similar care intensity to the middle-aged cohort.
 
 **Departmental Performance**
+
 ![](DERPARTMENTAL_PERFORMANCE.png)
+
 Pediatrics and Oncology lead in recovery outcomes, while Neurology and Orthopedics trail the hospital average — both may warrant a closer review of care protocols.
 
 **Treatment Effectiveness**
+
 ![](TREATMENT_OUTCOME.png)
+
 Therapy emerged as the most effective treatment approach, achieving the highest average recovery score of approximately 71, despite generating the lowest treatment revenue (~$3.78 million) among the three categories. This suggests that therapy-based interventions may offer strong clinical value relative to their cost.
 
 Medication, by contrast, generated the highest treatment revenue (~$4.44 million) but recorded the lowest average recovery score of approximately 68. This inverse relationship between spend and outcome is a key finding of this analysis, indicating that higher expenditure on medication-based treatment does not necessarily translate into better patient recovery.
@@ -78,6 +80,14 @@ Medication, by contrast, generated the highest treatment revenue (~$4.44 million
 Surgery demonstrated consistently strong performance across several departments, positioning it as a reliable treatment option, though it did not lead in either revenue or recovery score.
 
 Taken together, these findings suggest that treatment effectiveness is not solely a function of cost. The hospital may benefit from a closer review of Medication protocols to understand the drivers behind its comparatively lower recovery outcomes, while examining what aspects of Therapy's approach are contributing to its stronger results—potentially informing improvements across other treatment types.
+
+![](DASHBOARD_2.png)
+
+The physician performance analysis reveals noticeable variations in patient outcomes and care efficiency. Dr. L. Khan and Dr. M. Patel achieved the highest average recovery scores (73), demonstrating strong clinical effectiveness, while Dr. R. Singh and Dr. T. Mehta recorded the lowest recovery scores (68). Although Dr. L. Khan managed the highest patient volume (46), the physician maintained excellent recovery outcomes, suggesting effective treatment practices. These differences indicate opportunities to benchmark high-performing physicians and standardize best practices across the clinical team.
+
+The scatter plot indicates a weak positive relationship between patient age and recovery score, meaning recovery outcomes improve slightly with increasing age. However, the wide distribution of data points shows that age alone has minimal influence on treatment success. This suggests that other clinical factors—such as disease severity, treatment type, underlying health conditions, and quality of care—are more significant determinants of patient recovery than age.
+
+The analysis shows a moderate positive relationship between length of hospital stay and recovery score, indicating that patients who remained hospitalized for longer periods generally achieved better recovery outcomes. This trend suggests that extended stays may allow for more comprehensive treatment, monitoring, and rehabilitation, particularly for complex cases. However, the variation in the data also indicates that prolonged hospitalization does not guarantee better recovery, emphasizing the need to optimize the length of stay to balance clinical outcomes with efficient resource utilization.
 
 ## Recommendations
 1. Investigate and resolve the gender-data gap (31% unspecified) to strengthen future demographic reporting.
