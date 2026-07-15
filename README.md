@@ -113,8 +113,9 @@ To enable deeper and more accurate analysis in future studies, the hospital shou
     
 By expanding the dataset and integrating advanced analytical techniques, the hospital can move beyond descriptive reporting to predictive and prescriptive analytics. This will enable hospital management to anticipate healthcare challenges, optimize clinical decision-making, improve patient outcomes, and strengthen overall operational performance.
 
-
+## Author
 **_Nwali Adaobi_**
+
 (Healthcare | BI Analyst)
 
 
