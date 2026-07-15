@@ -27,6 +27,8 @@ The key fields include;
   - Hospital Stay
   - Recovery Score
 
+![](DATASET.png)
+
 ## Data Cleaning & Transformation
 Prior to analysis, the raw dataset was cleaned and prepared in Microsoft Excel to ensure accuracy and consistency, following these steps:
 
@@ -35,6 +37,8 @@ Prior to analysis, the raw dataset was cleaned and prepared in Microsoft Excel t
 3. **Age Group Categorization**: An Age Group field was created using the IF function to segment patients into defined age brackets, enabling more meaningful comparisons across other variables.
 4. **Pivot Table Analysis**: Pivot tables were built to answer the key analytical questions driving this report.
 5. **Dashboard Development**: Interactive dashboards were developed to visualize the findings and support clear, data-driven decision-making.
+
+![](PIVOT_TABLES.png)
 
 ## Key Metrics
 1. **Total Patients**: The total number of patients treated by the hospital during the reporting period.
@@ -49,6 +53,10 @@ This analysis examines outcomes across 200 patients treated at the hospital, wit
   - Average Length of Stay: 16 days
   - Average Recovery Score: 70/100
 
+![](DASHBOARD_1.png)
+
+![](DASHBOARD_2.png)
+
 The hospital achieved a moderate overall recovery outcome of 70%, with patients averaging a 16-day length of stay. Recovery performance showed meaningful variation across treatment types, age groups, and departments, pointing to specific opportunities for targeted improvement.
 
 **Data Quality Flag**: 31% of patient records (62 of 200) have unspecified gender. This is a significant gap that should be addressed, as it limits the reliability of any demographic-based analysis and recommendations.
@@ -57,5 +65,46 @@ The hospital achieved a moderate overall recovery outcome of 70%, with patients 
 
 **Age-Related Outcomes**: Patients aged 65+ recorded the highest recovery score (~78), while those aged 35–49 recorded the lowest. This gap may reflect more intensive monitoring and follow-up care typically extended to older patients, and suggests an opportunity to extend similar care intensity to the middle-aged cohort.
 
-**Departmental Performance""
+**Departmental Performance**
 ![](DERPARTMENTAL_PERFORMANCE.png)
+Pediatrics and Oncology lead in recovery outcomes, while Neurology and Orthopedics trail the hospital average — both may warrant a closer review of care protocols.
+
+**Treatment Effectiveness**
+![](TREATMENT_OUTCOME.png)
+Therapy emerged as the most effective treatment approach, achieving the highest average recovery score of approximately 71, despite generating the lowest treatment revenue (~$3.78 million) among the three categories. This suggests that therapy-based interventions may offer strong clinical value relative to their cost.
+
+Medication, by contrast, generated the highest treatment revenue (~$4.44 million) but recorded the lowest average recovery score of approximately 68. This inverse relationship between spend and outcome is a key finding of this analysis, indicating that higher expenditure on medication-based treatment does not necessarily translate into better patient recovery.
+
+Surgery demonstrated consistently strong performance across several departments, positioning it as a reliable treatment option, though it did not lead in either revenue or recovery score.
+
+Taken together, these findings suggest that treatment effectiveness is not solely a function of cost. The hospital may benefit from a closer review of Medication protocols to understand the drivers behind its comparatively lower recovery outcomes, while examining what aspects of Therapy's approach are contributing to its stronger results—potentially informing improvements across other treatment types.
+
+## Recommendations
+1. Investigate and resolve the gender-data gap (31% unspecified) to strengthen future demographic reporting.
+2. Review Medication protocols given the cost-outcome mismatch.
+3. Assess whether Neurology and Orthopedics need additional clinical or staffing support.
+4. Consider extending enhanced follow-up care models (used for 65+ patients) to the 35–49 age group.
+5. Strengthen rehabilitation and follow-up programs.
+6. Use predictive analytics to identify patients at risk of poor recovery outcomes.
+
+## Conclusion
+This analysis demonstrates the value of healthcare data analytics in supporting evidence-based decision-making within the hospital. By evaluating patient demographics, treatment costs, length of stay, recovery scores, treatment types, and departmental performance, the hospital gains a comprehensive understanding of the factors influencing patient outcomes and operational efficiency.
+
+Overall, these insights can help the hospital improve the quality of patient care, optimize resource utilization, reduce unnecessary costs, enhance recovery outcomes, and support strategic planning for continuous healthcare improvement.
+
+To enable deeper and more accurate analysis in future studies, the hospital should consider collecting additional clinical and operational data, including:
+  - Patient Diagnosis and Disease Severity: To understand how specific medical conditions influence recovery and treatment outcomes. 
+  - Comorbidities: Information on chronic illnesses such as diabetes, hypertension, or heart disease to explain variations in recovery. 
+  - Readmission Rates: To evaluate the long-term effectiveness of treatments and identify recurring health issues. 
+  - Treatment Duration and Follow-up Data: To assess the impact of post-discharge care on patient recovery. 
+  - Patient Satisfaction Scores: To complement clinical outcomes with patient experience and service quality. 
+  - Mortality and Complication Rates: To provide a more comprehensive assessment of treatment quality and patient safety. 
+  - Data Quality Improvements: Ensure complete and accurate recording of patient information, particularly demographic details such as gender, to improve the reliability of future analyses.
+    
+By expanding the dataset and integrating advanced analytical techniques, the hospital can move beyond descriptive reporting to predictive and prescriptive analytics. This will enable hospital management to anticipate healthcare challenges, optimize clinical decision-making, improve patient outcomes, and strengthen overall operational performance.
+
+
+**_Nwali Adaobi_**
+(Healthcare | BI Analyst)
+
+
