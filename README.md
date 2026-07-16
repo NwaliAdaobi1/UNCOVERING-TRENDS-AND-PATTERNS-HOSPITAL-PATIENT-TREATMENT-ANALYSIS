@@ -59,7 +59,7 @@ The hospital achieved a moderate overall recovery outcome of 70%, with patients 
 
 **Data Quality Flag**: 31% of patient records (62 of 200) have unspecified gender. This is a significant gap that should be addressed, as it limits the reliability of any demographic-based analysis and recommendations.
 
-**Treatment Spend vs. Outcomes**: Medication accounted for the highest treatment revenue (~$4.44M) but delivered the lowest recovery score (68). Conversely, Therapy generated the lowest revenue (~$3.78M) yet achieved the highest recovery score (71). This indicates that higher treatment expenditure does not necessarily correlate with better patient outcomes — a finding worth further investigation into treatment protocols and resource allocation.
+**Treatment Spend vs. Outcomes**: Medication accounted for the highest treatment revenue (~$4.44M) but delivered the lowest recovery score (68).  Conversely, Therapy generated the lowest revenue (~$3.78M) yet achieved the highest recovery score (71). This indicates that higher treatment expenditure does not necessarily correlate with better patient outcomes — a finding worth further investigation into treatment protocols and resource allocation.
 
 **Age-Related Outcomes**: Patients aged 65+ recorded the highest recovery score (~78), while those aged 35–49 recorded the lowest. This gap may reflect more intensive monitoring and follow-up care typically extended to older patients, and suggests an opportunity to extend similar care intensity to the middle-aged cohort.
 
